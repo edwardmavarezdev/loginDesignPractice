@@ -1,0 +1,60 @@
+
+.divContainer, .container0{
+	width: 100%;
+	background-color:#ff0;
+	display:flex;
+	flex-direction:row;
+}
+
+.box1{
+	background-color:#0f0;
+	width:50%;
+	min-height:100vh;
+}
+
+.box2{
+	background-color:#d00;
+	width:50%;
+}
+
+.box2 div{
+	background-color:red;
+	
+}
+
+.box2 div p{
+	margin:10%;
+	font-size:1rem ;
+	background-color:blue;
+	min-width:200px;
+}
+
+
+.divSon{
+	background-color:#0f0;
+	width:30%;
+	margin-bottom:10vh;
+}
+
+.divSon2{	
+	background-color:#d00;
+	width:70%;
+}
+
+.divSon2 p {
+	background-color: blue;
+	margin: 40px;
+}
+
+.container2{
+	width:100%;
+	background-color:#ff0;
+}
+
+.x{
+	width:100px;
+	height:100px;
+	background-color:purple;
+	margin:auto;
+}
+
