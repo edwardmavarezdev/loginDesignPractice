@@ -1,60 +1,79 @@
 
-.divContainer, .container0{
-	width: 100%;
-	background-color:#ff0;
-	display:flex;
-	flex-direction:row;
+body{
+	font-family:sans-serif;
+
 }
 
-.box1{
-	background-color:#0f0;
-	width:50%;
-	min-height:100vh;
-}
-
-.box2{
-	background-color:#d00;
-	width:50%;
-}
-
-.box2 div{
-	background-color:red;
-	
-}
-
-.box2 div p{
-	margin:10%;
-	font-size:1rem ;
-	background-color:blue;
-	min-width:200px;
-}
-
-
-.divSon{
-	background-color:#0f0;
-	width:30%;
-	margin-bottom:10vh;
-}
-
-.divSon2{	
-	background-color:#d00;
-	width:70%;
-}
-
-.divSon2 p {
-	background-color: blue;
-	margin: 40px;
-}
-
-.container2{
+.background{
+	background-color: #09d;
 	width:100%;
-	background-color:#ff0;
+	height:100vh;
+	display:flex;
+	align-items:center;
 }
 
-.x{
-	width:100px;
-	height:100px;
-	background-color:purple;
+.container{
+	min-width:300px;
 	margin:auto;
+	vertical-align:bottom;
+	width:80%;
+	max-width:60vmin;
 }
+
+p{
+	margin: 0 auto;
+}
+
+.logo{
+	content: url('assets/logo.png');
+	border-radius:10px;
+	width:100%;
+}	
+
+hr{
+	background-color:white;
+	height:0;
+}
+
+.title{
+	text-align: center;
+	color:white;
+	font-weight:bold;
+}
+
+
+.userBox, .passwordBox{
+	background-color:#eee;
+	width:100%;
+	height:3rem;
+	padding-top:0.6rem;
+	border-radius:0.3rem;
+	margin: 1rem 0;
+	
+	}
+
+.userTitle, .userName, .passwordTitle, .password{
+	margin-left: .5rem;
+}
+
+.userName, .password{
+	background-color:transparent;
+	color:black;
+	border:none;
+}
+
+.userName:focus, .password:focus{
+	outline: none;
+}
+
+.login{
+	background-color:blue;
+	width:100%;
+	height:2.5rem;
+	border-radius:6px;
+	color:white;
+	font-weight:bold;
+}
+
+
 
